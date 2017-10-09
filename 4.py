@@ -1,21 +1,23 @@
 # By Zhufyak V.V
 # zhufyakvv@gmail.com
 # github.com/zhufyakvv
-# 19.09.2017
+# 26.09.2017
+import math
 
-n = int(input())
+n = int(input("n > "))
+m = int(input("m > "))
 
-data = {}
-for i in range(0, n):
-    line = input()
-    line = line.split()
-    data[line[0]] = line[1:]
 
-n = int(input())
+def sqrtFactRecursion(i):
+    sqrt = 1.0 / math.factorial(i)
+    if i < n:
+        sqrt += sqrtFactRecursion(i + 1)
+    result = 1.0 / 8 * math.sqrt(sqrt)
+    return result
 
-for i in range(0, n):
-    line = input()
-    for key, value in data.items():
-        if line in value:
-            print(key)
-            break
+
+delimiter = sqrtFactRecursion(1)
+remainder = 2 ** m
+print("Delimiter = " + str(delimiter))
+print("Reminder = " + str(remainder))
+print(remainder/delimiter)
