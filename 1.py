@@ -4,8 +4,10 @@
 # 05.09.2017
 import math
 
+
 def f(x, a, k):
-    return math.sin(x**k)/(a ** (2*k) + math.factorial(2*k))
+    return math.sin(x ** k) / (a ** (2 * k) + math.factorial(2 * k))
+
 
 s = 0
 
