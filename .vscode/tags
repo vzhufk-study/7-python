@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+1.py	../1.py	1;"	kind:file	line:1
+10.py	../10.py	1;"	kind:file	line:1
+2.py	../2.py	1;"	kind:file	line:1
+3.py	../3.py	1;"	kind:file	line:1
+4.py	../4.py	1;"	kind:file	line:1
+5.py	../5.py	1;"	kind:file	line:1
+6.py	../6.py	1;"	kind:file	line:1
+7.py	../7.py	1;"	kind:file	line:1
+8.py	../8.py	1;"	kind:file	line:1
+9.py	../9.py	1;"	kind:file	line:1
+Candidate	../_6.py	/^class Candidate(Person):$/;"	kind:class	line:25
+DATABASE_PATH	../8.py	/^DATABASE_PATH = 'storage\/db.sqlite3'$/;"	kind:variable	line:26
+DATABASE_PATH	../_8.py	/^DATABASE_PATH = 'storage\/db.sqlite3'$/;"	kind:variable	line:25
+MyUglyForm	../10.py	/^class MyUglyForm:$/;"	kind:class	line:48
+Person	../Entities/Person.py	/^class Person:$/;"	kind:class	line:9
+Person	../_6.py	/^class Person:$/;"	kind:class	line:11
+Person.py	../Entities/Person.py	1;"	kind:file	line:1
+Product	../Entities/Product.py	/^class Product(persistent.Persistent):$/;"	kind:class	line:8
+Product.py	../Entities/Product.py	1;"	kind:file	line:1
+Student	../Entities/Student.py	/^class Student(Person):$/;"	kind:class	line:8
+Student.py	../Entities/Student.py	1;"	kind:file	line:1
+_3.py	../_3.py	1;"	kind:file	line:1
+_5.py	../_5.py	1;"	kind:file	line:1
+_6.py	../_6.py	1;"	kind:file	line:1
+_8.py	../_8.py	1;"	kind:file	line:1
+__init__	../10.py	/^    def __init__(self):$/;"	kind:member	line:49
+__init__	../Entities/Person.py	/^    def __init__(self, first_name, middle_name, last_name, birth_date):$/;"	kind:member	line:10
+__init__	../Entities/Product.py	/^    def __init__(self, name, price, amount, date, set, responsible_name):$/;"	kind:member	line:10
+__init__	../Entities/Student.py	/^    def __init__(self, first_name, middle_name, last_name, birth_date, faculty, group, grant, avr_mark):$/;"	kind:member	line:9
+__init__	../_6.py	/^    def __init__(self, first_name, middle_name, last_name, birth_date):$/;"	kind:member	line:12
+__init__	../_6.py	/^    def __init__(self, first_name, middle_name, last_name, birth_date, district, electorate, votes, party):$/;"	kind:member	line:26
+__str__	../Entities/Person.py	/^    def __str__(self):$/;"	kind:member	line:19
+__str__	../_6.py	/^    def __str__(self):$/;"	kind:member	line:21
+a	../1.py	/^a = float(input("Set a..."))$/;"	kind:variable	line:15
+a	../2.py	/^    a = a.replace(i, "")$/;"	kind:variable	line:10
+a	../2.py	/^a = input("Text 1:")$/;"	kind:variable	line:6
+a	../3.py	/^a = int(input("Set a..."))$/;"	kind:variable	line:27
+a	../cgi-bin/form.py	/^a = float(form.getfirst("a", "Missing a argument."))$/;"	kind:variable	line:8
+all	../_6.py	/^    all = [putin, poroshenko, tamara]$/;"	kind:variable	line:89
+all_groups	../6.py	/^all_groups = [me, roman_dog, roman, random, casual]$/;"	kind:variable	line:16
+b	../2.py	/^b = input("Text 2:")$/;"	kind:variable	line:7
+b	../3.py	/^b = int(input("Set b..."))$/;"	kind:variable	line:28
+b	../cgi-bin/form.py	/^b = float(form.getfirst("b", "Missing b argument."))$/;"	kind:variable	line:9
+c	../cgi-bin/form.py	/^c = float(form.getfirst("c", "Missing c argument."))$/;"	kind:variable	line:10
+casual	../6.py	/^casual = Student("Alise", "Petrivna", "Kosach", "04-5-1999", "MIT", "102", 1000, 100)$/;"	kind:variable	line:13
+command	../10.py	/^    def command(self):$/;"	kind:member	line:94
+connection	../7.py	/^connection = db.open()$/;"	kind:variable	line:20
+cursor	../8.py	/^cursor = db.cursor()$/;"	kind:variable	line:29
+cursor	../_8.py	/^cursor = db.cursor()$/;"	kind:variable	line:28
+data	../5.py	/^data = {}$/;"	kind:variable	line:8
+data	../_5.py	/^data = {}$/;"	kind:variable	line:6
+db	../7.py	/^db = DB(storage)$/;"	kind:variable	line:19
+db	../8.py	/^db = sqlite3.connect(DATABASE_PATH)$/;"	kind:variable	line:28
+db	../_8.py	/^db = sqlite3.connect(DATABASE_PATH)$/;"	kind:variable	line:27
+delimiter	../4.py	/^delimiter = sqrtFactRecursion(1)$/;"	kind:variable	line:19
+delta	../1.py	/^delta = e$/;"	kind:variable	line:18
+e	../1.py	/^e = float(input("Set e..."))$/;"	kind:variable	line:16
+f	../1.py	/^def f(x, a, k):$/;"	kind:function	line:8
+form	../10.py	/^    form = MyUglyForm()$/;"	kind:variable	line:115
+form	../cgi-bin/form.py	/^form = cgi.FieldStorage()$/;"	kind:variable	line:7
+form.py	../cgi-bin/form.py	1;"	kind:file	line:1
+getVector	../3.py	/^def getVector(matrix, getRow):$/;"	kind:function	line:1
+getVectorCol	../_3.py	/^def getVectorCol(matrix, getCol):$/;"	kind:function	line:14
+getVectorRow	../3.py	/^def getVectorRow(row, a=a, b=b):$/;"	kind:function	line:31
+getVectorRow	../_3.py	/^def getVectorRow(matrix, getRow):$/;"	kind:function	line:7
+getVectorSum	../_3.py	/^def getVectorSum(vector):$/;"	kind:function	line:24
+get_age	../Entities/Person.py	/^    def get_age(self):$/;"	kind:member	line:16
+get_age	../_6.py	/^    def get_age(self):$/;"	kind:member	line:18
+get_avr_age	../Entities/Student.py	/^def get_avr_age(objects):$/;"	kind:function	line:32
+get_group	../Entities/Student.py	/^def get_group(objects, group):$/;"	kind:function	line:17
+get_max_price	../Entities/Product.py	/^    def get_max_price(objects):$/;"	kind:member	line:19
+get_more_than	../_6.py	/^def get_more_than(candidates, percent=0.5):$/;"	kind:function	line:69
+get_most_value	../8.py	/^def get_most_value(cursor):$/;"	kind:function	line:18
+get_most_value	../_8.py	/^def get_most_value(cursor):$/;"	kind:function	line:17
+get_oldest	../_6.py	/^def get_oldest(candidates):$/;"	kind:function	line:53
+get_p_of_triangle	../10.py	/^def get_p_of_triangle(a, b, c):$/;"	kind:function	line:25
+get_s_of_triangle	../10.py	/^def get_s_of_triangle(a, b, c):$/;"	kind:function	line:36
+get_sum	../8.py	/^def get_sum(cursor):$/;"	kind:function	line:22
+get_sum	../_8.py	/^def get_sum(cursor):$/;"	kind:function	line:21
+get_sum_grant	../Entities/Student.py	/^def get_sum_grant(objects):$/;"	kind:function	line:25
+get_the_best	../_6.py	/^def get_the_best(candidates):$/;"	kind:function	line:37
+get_value	../Entities/Product.py	/^    def get_value(objects):$/;"	kind:member	line:27
+grid	../10.py	/^    def grid(self):$/;"	kind:member	line:74
+httpd	../9.py	/^httpd = HTTPServer(server_address, CGIHTTPRequestHandler)$/;"	kind:variable	line:3
+is_triangle	../10.py	/^def is_triangle(a, b, c):$/;"	kind:function	line:11
+k	../1.py	/^k = 0$/;"	kind:variable	line:19
+line	../5.py	/^    line = input()$/;"	kind:variable	line:10
+line	../5.py	/^    line = input()$/;"	kind:variable	line:18
+line	../5.py	/^    line = line.split()$/;"	kind:variable	line:11
+line	../_5.py	/^    line = input()$/;"	kind:variable	line:8
+m	../4.py	/^m = int(input("m > "))$/;"	kind:variable	line:8
+matrix	../3.py	/^matrix = []$/;"	kind:variable	line:20
+matrix	../_3.py	/^matrix = []$/;"	kind:variable	line:44
+me	../6.py	/^me = Student("Vadym", "Volodumurovich", "Zhufyak", "25-02-1997", "MIT", "402", 1001, 75)$/;"	kind:variable	line:9
+my_group	../6.py	/^my_group = get_group(all_groups, "402")$/;"	kind:variable	line:17
+n	../3.py	/^n = int(input("Set size of matrix..."))$/;"	kind:variable	line:18
+n	../4.py	/^n = int(input("n > "))$/;"	kind:variable	line:7
+n	../5.py	/^n = int(input())$/;"	kind:variable	line:15
+n	../5.py	/^n = int(input())$/;"	kind:variable	line:6
+n	../7.py	/^n = int(input('Set amount of products...'))$/;"	kind:variable	line:25
+n	../_3.py	/^n = 15 if n > 15 else n$/;"	kind:variable	line:42
+n	../_3.py	/^n = int(input("Set size of matrix..."))$/;"	kind:variable	line:41
+poroshenko	../_6.py	/^    poroshenko = Candidate("Poroshenko", "Ivan", "Ivanovuch", "07-05-1910", 10, 1000, 1100, "Roshen")$/;"	kind:variable	line:85
+printBy	../3.py	/^def printBy(array, amount=5):$/;"	kind:function	line:8
+printBy	../_3.py	/^def printBy(array, amount=5):$/;"	kind:function	line:31
+product	../7.py	/^    product = Product($/;"	kind:variable	line:27
+putin	../_6.py	/^    putin = Candidate("Vladimir", "Vladimirovich", "Putin", "06-04-1964", 1, 1000, 1200, "Edinaya Rosiya")$/;"	kind:variable	line:84
+random	../6.py	/^random = Student("Ivan", "Ivanovuch", "Ivanov", "10-10-1998", "MIT", "301", 0, 75)$/;"	kind:variable	line:12
+remainder	../4.py	/^remainder = 2 ** m$/;"	kind:variable	line:20
+result	../3.py	/^result = getVector(matrix, getVectorRow)$/;"	kind:variable	line:39
+resultA	../_3.py	/^resultA = getVectorRow(matrix, getVectorSum)$/;"	kind:variable	line:51
+resultB	../_3.py	/^resultB = getVectorCol(matrix, getVectorSum)$/;"	kind:variable	line:52
+roman	../6.py	/^roman = Student("Roman", "Yuriyovuch", "Moshnyaga", "15-12-1997", "MIT", "402", 989, 65)$/;"	kind:variable	line:11
+roman_dog	../6.py	/^roman_dog = Student("Roman", "Igorovuch", "Baglay", "12-10-1997", "MIT", "402", 0, 3)$/;"	kind:variable	line:10
+root	../7.py	/^root = connection.root$/;"	kind:variable	line:21
+s	../1.py	/^s = 0$/;"	kind:variable	line:12
+server_address	../9.py	/^server_address = ("", 8000)$/;"	kind:variable	line:2
+sqrtFactRecursion	../4.py	/^def sqrtFactRecursion(i):$/;"	kind:function	line:11
+storage	../7.py	/^storage = FileStorage.FileStorage('mydata.fs')$/;"	kind:variable	line:18
+table_name	../8.py	/^table_name = "Storage"$/;"	kind:variable	line:15
+table_name	../_8.py	/^table_name = "Cars"$/;"	kind:variable	line:14
+tamara	../_6.py	/^    tamara = Candidate("Tamara", "Prosto", "Tamara", "21-09-1997", 1, 12, 4, "Tamara")$/;"	kind:variable	line:86
+tmp	../1.py	/^tmp = f(x, a, k)$/;"	kind:variable	line:21
+x	../1.py	/^x = float(input("Set x..."))$/;"	kind:variable	line:14

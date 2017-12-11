@@ -11,7 +11,7 @@
 #
 import sqlite3
 
-table_name = "Cars"
+table_name = "Car"
 
 
 def get_most_value(cursor):
@@ -19,12 +19,29 @@ def get_most_value(cursor):
 
 
 def get_sum(cursor):
-    return cursor.execute("SELECT SUM(price*qty) as result FROM %s" % table_name).fetchone()[0]
+    return cursor.execute("SELECT SUM(price) as result FROM %s" % table_name).fetchone()[0]
 
+def init(cursor):
+    return cursor.execute("""CREATE TABLE %s(
+                          number VARCHAR(6),
+                          mark VARCHAR(64),
+                          model VARCHAR(64),
+                          year INT,
+                          price FLOAT,
+                          in_run FLOAT,
+                          owner VARCHAR(128),
+                          PRIMARY KEY (number));""" % table_name)
 
-DATABASE_PATH = 'storage/db.sqlite3'
+def seed(cursor):
+    cursor.execute("INSERT INTO %s VALUES ('VF231F', 'Audi', 'A4', 2008, 8000, 23000, 'Baglay Roman')" % table_name)
+    cursor.execute("INSERT INTO %s VALUES ('VF222F', 'Nuva', '1A', 1997, 100, 223000, 'Moshnyaga Roman')" % table_name)
+    cursor.execute("INSERT INTO %s VALUES ('DF321A', 'Nisan', 'ATO', 2000, 5100, 3000, 'Me')" % table_name)
+
+DATABASE_PATH = 'db.sqlite3'
 
 db = sqlite3.connect(DATABASE_PATH)
 cursor = db.cursor()
 print(get_most_value(cursor))
 print(get_sum(cursor))
+# init(cursor)
+# seed(cursor)
